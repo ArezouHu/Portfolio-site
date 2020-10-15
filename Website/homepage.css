@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@200&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: url("homefoto.jpg") no-repeat center;
+    background-size: cover;
+    width: 100vw;
+    
+}
+.wrapper {
+    margin-top: 10%;
+}
+.wrapper h1 {
+    font-family: 'Allura', cursive, bold;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgba(109, 107, 107, 0.884);
+}
+.wrapper p {
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(110, 109, 109);
+}
+.mlinks {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: none;
+    box-sizing: border-box;
+    background: url("homefoto.jpg") no-repeat center;
+    background-size: cover
+
+}
+.smicons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.smicons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: end;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+.smicons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: rgba(0, 136, 169, 1);
+}
+.smicons ul li a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    transform: translateX(-26%);
+}
+.smicons ul li a i {
+    line-height: 50px;
+}
+.smicons ul li:hover {
+    background: gray;
+}
+

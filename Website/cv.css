@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e6f2ff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper {
+    margin-top: 4%;
+}
+.wrapper h1 {
+    font-family: 'Allura', cursive, bold;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: rgba(109, 107, 107, 0.884);
+}
+.team {
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .team_member {
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 70px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: rgba(0, 136, 169, 1);
+    position: relative;
+}
+.team .team_member h3 {
+    color: rgba(0, 136, 169, 1);
+    font-size: 26px;
+    margin-top: 50px;
+}
+.team .team_member p.role {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 12px 0;
+}
+.team .team_member .icon {
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+.team .team_member .icon i {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.mlinks {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: none;
+    box-sizing: border-box;
+}
+.smicons {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.smicons ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.smicons ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: rgba(0, 136, 169, 1);
+}
+.smicons ul li a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    transform: translateX(-26%);
+}
+.smicons ul li a i {
+    line-height: 50px;
+}
+.smicons ul li:hover {
+    background: gray;
+}
